@@ -47,7 +47,8 @@ char	*sayings[] = {"I want to drive a car… a fat car.\n",
                     "qq disant que remy a eu 0 à l'exam, remy: tu as pleuré pour moi ?\n",
                     "(13:28:09) robert_r: we are in math' s lesson. Sorry we aren' t disponible. try again\n",
                     "Avoir un fond blanc, ça abime mon écran.\n",
-                    "Mais gueux j'ai l'impression qu'il mange trop de camembert en ce moment\n"
+                    "Mais gueux j'ai l'impression qu'il mange trop de camembert en ce moment\n",
+		    "Mon telephone, c'est un ordinateur qui à l'option téléphone, mais encore il faut l'activé\n"
                   };
 
 int	main(int argc, char **argv)
