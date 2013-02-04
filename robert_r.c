@@ -59,6 +59,10 @@ int	main(int argc, char **argv)
   srand(seed);
   if (argv[1] != NULL)
     srand(atoi(argv[1]));
+   if (argc > 2)
+   i = rand() % (sizeof(sayings) / sizeof(char*));
+   printf("%s", sayings[i]);
+   else
   while (1)
     {
       i = rand() % 1000 + 400000;
