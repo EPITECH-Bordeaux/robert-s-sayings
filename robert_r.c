@@ -57,9 +57,9 @@ int	main(int argc, char **argv)
   int	seed;
 
   seed = time(NULL);
-  srand(seed);
-  if (argv[1] != NULL)
-    srand(atoi(argv[1]));
+  if (argv[1] != NULL && argv[1][0] != '\0')
+    seed = atoi(argv[1]);
+srand(seed);
    if (argc > 2)
 {
    i = rand() % (sizeof(sayings) / sizeof(char*));
