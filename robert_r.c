@@ -2,6 +2,14 @@
 #include <stdlib.h>
 #include <unistd.h>
 
+static int	cpu_cycle(void)
+{
+  int				rval;
+
+__asm__ volatile ("rdtsc" : "=A" (rval));
+  return (rval);
+}
+
 char	*sayings[] = {"I want to drive a car… a fat car.\n",
                     "Ça marche pas.\n",
                     "Bug interstellaire !\n",
@@ -56,7 +64,7 @@ int	main(int argc, char **argv)
   int	i;
   int	seed;
 
-  seed = time(NULL);
+  seed = cpu_cycle();
   if (argv[1] != NULL && argv[1][0] != '\0')
     seed = atoi(argv[1]);
 srand(seed);
