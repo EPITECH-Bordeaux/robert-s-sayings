@@ -49,14 +49,26 @@ char	*sayings[] = {"I want to drive a car… a fat car.\n",
                     "x² + x² = x^4 !\n",
                     "envoyez moi des paquets magiques ! faite quelque chose !\n",
                     "un lien posez vos question, remy: clic! des fois ils proposent des qcm\n",
-                    "Bon concretement ciomment ça se passe ?\n",
+                    "Bon concretement comment ça se passe ?\n",
                     "Cordialement.\n",
                     "je suis nul en tab\n",
-                    "qq disant que remy a eu 0 à l'exam, remy: tu as pleuré pour moi ?\n",
+                    "qq disant que remi a eu 0 à l'exam, remy: tu as pleuré pour moi ?\n",
                     "(13:28:09) robert_r: we are in math' s lesson. Sorry we aren' t disponible. try again\n",
                     "Avoir un fond blanc, ça abime mon écran.\n",
                     "Mais gueux j'ai l'impression qu'il mange trop de camembert en ce moment\n",
-		    "Mon telephone, c'est un ordinateur qui à l'option téléphone, mais encore il faut l'activé\n"
+		    "Mon telephone, c'est un ordinateur qui à l'option téléphone, mais encore il faut l'activer\n"
+		    "Tu fais un ou exclusif ? non, je fais un xorus"
+		    "Idem, pour moi ce n'est que d'idem"
+		    "Truc de fat"
+		    "Oui, j'adore la minilib"
+		    "Armagetronade: c'est toi le tronade"
+		    "Je me suis fait un opérateur privé avec une sim craquée"
+		    "Y'a un man pour les nombres premiers ?"
+		    "Pierre: ils arrivent dans 1/4 h, remi: dans 1/4 h et demi ?"
+		    "C'est fat ou c'est fat32 ?"
+		    "je fais le xorus"
+		    "Ca va encore être une semaine de 100 heures: non c'est plus que ca, ca va être une semaine de 100h et quart"
+		    "la coatch: la derniere fois elle nous a donné des bons tuyaux sur svn"
                   };
 
 int	main(int argc, char **argv)
