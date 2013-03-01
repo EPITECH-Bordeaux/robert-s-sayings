@@ -56,19 +56,20 @@ char	*sayings[] = {"I want to drive a car… a fat car.\n",
                     "(13:28:09) robert_r: we are in math' s lesson. Sorry we aren' t disponible. try again\n",
                     "Avoir un fond blanc, ça abime mon écran.\n",
                     "Mais gueux j'ai l'impression qu'il mange trop de camembert en ce moment\n",
-		    "Mon telephone, c'est un ordinateur qui à l'option téléphone, mais encore il faut l'activer\n"
-		    "Tu fais un ou exclusif ? non, je fais un xorus"
-		    "Idem, pour moi ce n'est que d'idem"
-		    "Truc de fat"
-		    "Oui, j'adore la minilib"
-		    "Armagetronade: c'est toi le tronade"
-		    "Je me suis fait un opérateur privé avec une sim craquée"
-		    "Y'a un man pour les nombres premiers ?"
-		    "Pierre: ils arrivent dans 1/4 h, remi: dans 1/4 h et demi ?"
-		    "C'est fat ou c'est fat32 ?"
-		    "je fais le xorus"
-		    "Ca va encore être une semaine de 100 heures: non c'est plus que ca, ca va être une semaine de 100h et quart"
-		    "la coatch: la derniere fois elle nous a donné des bons tuyaux sur svn"
+		    "Mon telephone, c'est un ordinateur qui à l'option téléphone, mais encore il faut l'activer\n",
+		    "Tu fais un ou exclusif ? non, je fais un xorus\n",
+		    "Idem, pour moi ce n'est que d'idem\n",
+		    "Truc de fat\n",
+		    "Oui, j'adore la minilib\n",
+		    "Armagetronade: c'est toi le tronade\n",
+		    "Je me suis fait un opérateur privé avec une sim craquée\n",
+		    "Y'a un man pour les nombres premiers ?\n",
+		    "Pierre: ils arrivent dans 1/4 h, remi: dans 1/4 h et demi ?\n",
+		    "C'est fat ou c'est fat32 ?\n",
+		    "je fais le xorus\n",
+		    "Ca va encore être une semaine de 100 heures: non c'est plus que ca, ca va être une semaine de 100h et quart\n",
+		    "la coatch: la derniere fois elle nous a donné des bons tuyaux sur svn\n",
+		    "Git c'est fini, maintenant c'est l'afs ou rien\n"
                   };
 
 int	main(int argc, char **argv)
