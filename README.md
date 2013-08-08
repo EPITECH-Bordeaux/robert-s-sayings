@@ -1,11 +1,19 @@
 Robert_r's sayings ! (Ruby Style)
 ==========
 
+Require
+======
+* Ruby (2.0)
+* Gem
+* Bundle
+* sqlite3 Gem
+
 Installation
 =====
 ```sh
 git clone https://github.com/izissise/robert-s-sayings.git
 cd robert-s-sayings
+bundle install
 ruby robert_r.rb
 ```
 
