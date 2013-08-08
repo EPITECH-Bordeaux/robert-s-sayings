@@ -9,6 +9,8 @@ class App
     @options = {:db => "quotes.db", :add => []}
 
     @option_parser = OptionParser.new do |opts|
+      opts.banner = "Usage: ruby robert_r.rb [options]"
+
       opts.on('-a', '--add STRING', 'String to add') do |quote|
         @options[:add].push(quote)
       end
