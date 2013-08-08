@@ -56,11 +56,17 @@ ruby robert_r.rb --db quotes.db --add "je fais le xorus" -a "Git c'est fini, mai
 ```
 This command will use the quotes.db file as your database then add these two quotes and then run the script normally.
 
+List
+=====
+You can list all the quotes present in the current database thanks to `--list` and `-l` option
+
 Help
 =====
 ```
-Usage: robert_r [options]
+Usage: ruby robert_r.rb [options]
     -a, --add STRING                 String to add
+    -n, --no                         Don't start after an add
+    -l, --list                       List all quote of robert_r
     -d, --db DATABASE                Database name (default: quotes.db)
     -h, --help                       Show this message
 ```

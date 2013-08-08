@@ -6,7 +6,7 @@ class App
   attr_accessor :db, :options, :option_parser
 
   def initialize(args)
-    @options = {:db => "quotes.db", :add => []}
+    @options = {:db => "quotes.db", :add => [], :start => true}
 
     @option_parser = OptionParser.new do |opts|
       opts.banner = "Usage: ruby robert_r.rb [options]"
@@ -18,6 +18,14 @@ class App
       # opts.on('-j', '--json', 'Import a JSON array into the database') do |filename|
       #   @options[:json].push(filename)
       # end
+
+      opts.on('-n', '--no', 'Don\'t start after an add') do
+        @options[:start] = false
+      end
+
+      opts.on('-l', '--list', 'List all quote of robert_r') do
+        @options[:list] = true
+      end
 
       opts.on('-d', '--db DATABASE', 'Database name (default: quotes.db)') do |dbname|
         @options[:db] = dbname
@@ -78,11 +86,20 @@ end
 def main(args)
   app = App.new(ARGV)
   
-  if (app.options[:add].size > 0)
+  if app.options[:add].size > 0
     app.PutRow(app.options[:add])
+    if !app.options[:start]
+      exit
+    end
   end
 
   quotes = app.GetQuotes()
+  if app.options[:list]
+    quotes.each do |q|
+      puts q
+    end
+    exit
+  end
   puts quotes[rand(quotes.size)]
   while true
     sleep((rand() % 1000 + 400000) / 1000000)
