@@ -10,4 +10,4 @@ gcc -o robert_r robert_r.c
 
 Other versions
 =====
-* Ruby Style: please the ruby branch
+* Ruby Style: checkout the ruby branch or [click here](https://github.com/izissise/robert-s-sayings/tree/ruby "Ruby branch")
