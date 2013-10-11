@@ -11,6 +11,7 @@ Robert_r's sayings ! (Ruby Style)
 ```sh
 git clone https://github.com/izissise/robert-s-sayings.git
 cd robert-s-sayings
+git checkout ruby
 bundle install
 ruby robert_r.rb
 ```
