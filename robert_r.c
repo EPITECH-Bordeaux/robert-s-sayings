@@ -76,7 +76,8 @@ char	*sayings[] = {"I want to drive a car… a fat car.\n",
 		      "Je corrige un bug et un autre apparait, ça fait une cascade de bug !\n",
 		      "Phrase Remiesque !\n",
 		      "Read c'est fantastique\n",
-		      "je suis pas un puriste de la pomme au 3/4 croquée.\n"
+		      "je ne suis pas un puriste de la pomme au 3/4 croquée.\n",
+		      "Pullez, non mais pullez vraiment !"
 };
 
 int	main(int argc, char **argv)
